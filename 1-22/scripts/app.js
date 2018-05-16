@@ -2,7 +2,7 @@
 (function() {
   'use strict';
 
-  var injectedForecast = {
+  vvar injectedForecast = {
     key: 'newyork',
     label: 'New York, NY',
     currently: {
@@ -28,7 +28,6 @@
       ]
     }
   };
-
   var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
 
   var app = {
